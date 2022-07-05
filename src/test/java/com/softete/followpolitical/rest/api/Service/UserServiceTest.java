@@ -29,7 +29,7 @@ class UserServiceTest {
     }
 
     @Test
-    public void saveCorrect() {
+    void saveCorrect() {
         UserModel userModel = buildUser();
         UserModel userReturned = buildUser();
         userReturned.setId(Integer.parseInt("1"));
